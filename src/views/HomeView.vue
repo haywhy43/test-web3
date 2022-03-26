@@ -12,6 +12,7 @@ export default {
       contract: null,
       loadingContract: false,
       transferring: false,
+      message: "",
       contractAddress: "0x86c12a724340f3f4f6142789808874d0a55bd01f",
     };
   },
@@ -63,6 +64,7 @@ export default {
           <Loader />
         </div>
       </template>
+      <p>{{ message }}</p>
     </div>
   </main>
 </template>
@@ -89,6 +91,10 @@ main {
   font-weight: 700;
   font-size: 20px;
   text-align: center;
+}
+p {
+  color: black;
+  margin-top: 15px;
 }
 
 .content {
