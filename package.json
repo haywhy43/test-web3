@@ -1,0 +1,23 @@
+{
+  "name": "web3-work",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "browserify-zlib": "^0.2.0",
+    "events": "^3.3.0",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.4",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.12",
+    "web3": "^1.7.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.2",
+    "vite": "^2.8.4"
+  }
+}
